@@ -13,3 +13,30 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Android/Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing / secrets
+keystore.jks
+keystore.properties
+**/*.keystore
+**/*.jks
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated APK/AAB
+*.apk
+*.aab
+
+# (선택) 모델/대형 바이너리 직접 커밋 안 할 때
+app/src/main/assets/*.tflite
